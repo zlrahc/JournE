@@ -1,0 +1,29 @@
+@font-face {
+	
+	font-family : Genome-Thin ; 
+	src : url(font/Genome-Thin.otf);
+
+}
+
+body {
+	
+	 margin : 0;
+	padding : 0; 
+	
+}
+
+.parent {
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: 0em;
+
+}
+	
+.notebook {
+	
+	grid-area: 2 / 3 / 5 / 4;
+	text-align: center;
+
+}
