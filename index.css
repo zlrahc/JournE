@@ -1,0 +1,56 @@
+@font-face {
+	
+	font-family : Genome-Thin ; 
+	src: url(font/Genome-Thin.otf);
+
+}
+
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	font-family: Genome-Thin;
+	text-align: center;
+
+}
+
+/*-------------------*/
+
+.headingBox {
+
+	font-size: 6rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -70%);
+
+}
+
+.subHeadingBox {
+
+	font-size: 3rem;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+
+}
+
+.subHeadingHolder {
+
+	transition: 0.5s;
+
+}
+
+.subHeadingHolder:hover {
+
+	transform: scale(1.2);
+
+}
+
+.subHeading:link {
+
+	text-decoration: none;
+
+}
