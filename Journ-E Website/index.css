@@ -13,6 +13,9 @@ body {
 	font-family: Genome-Thin;
 	text-align: center;
 
+	background-color: #fff7ac;
+	color: #3c375a;
+
 }
 
 /*-------------------*/
@@ -39,7 +42,7 @@ body {
 
 .subHeadingHolder {
 
-	transition: 0.5s;
+	transition: 2.5s;
 
 }
 
@@ -53,4 +56,40 @@ body {
 
 	text-decoration: none;
 
+}
+
+.heading {
+	
+	opacity : 1;
+	animation : fadeiInTitle 4s;
+	-webkit-animation : fadeiInTitle 4s;
+	-moz-animation : fadeiInTitle 4s;
+	-o-animation : fadeiInTitle 4s;
+	-ms-animation : fadeiInTitle 4s;
+
+}
+
+@keyframes fadeiInTitle {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeiInTitle {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeiInTitle {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeiInTitle {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeiInTitle {
+0% { opacity: 0; }
+100% { opacity: 1; }
 }

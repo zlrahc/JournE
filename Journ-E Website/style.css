@@ -5,6 +5,11 @@
 
 }
 
+#home{
+
+	background-color: white;
+}
+
 body {
 	
 	margin : 0;
@@ -13,6 +18,8 @@ body {
 }
 
 .parent {
+
+	background-color: red;
 
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -26,23 +33,27 @@ body {
 	
 }
 
-.parent div {
+.parent .selection {
+
+	background-color: blue;
 
 	font-size: 4em;
-	text-align: center;
-	border: 1px solid black;
-	width: 25%;
+	border: 1.5px solid black;
+	width: 3em;
 	height: 5em;
-	padding-top: 1em;
-
 	transition: 0.5s;
+	font-family: Genome-Thin;
+	text-align: center;
 
 }
 
-.parent .selection {
+.rotate {
 
-	width: 100%;
-	font-family: Genome-Thin;
+	background-color: yellow;
+	
+	rotate: -90deg;
+	text-align: center;
+	position: relative;
 
 }
 
